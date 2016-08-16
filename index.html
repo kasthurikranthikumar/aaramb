@@ -9,11 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Aarambh</title>
+   <title>Aarambh </title>
 
-    <!-- Favicon --> 
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- Bootstrap Core CSS -->
+     <!-- Favicon --> 
+	<link rel="shortcut icon" href="favicon.ico">
+     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -23,6 +23,7 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+     <link href="css/full-slider.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">   <!-- Bootstrap Core CSS -->
@@ -45,12 +46,12 @@
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-
+           
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="logo.png" class="logo" width="180px" height="48px"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="logo.png" class="logo" width="150px" height="46px"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,7 +70,7 @@
                         <a class="page-scroll" href="#services">Services & Support</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Gallery</a>
+                        <a class="page-scroll" href="#Gallery">Gallery</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#shop">Shop</a>
@@ -93,21 +94,56 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-		
-            <div class="header-content-inner">
-               <!-- <h1 id="homeHeading" style="font-family: ‘Comic Sans, Comic Sans MS, cursive;"> <span style="color:#00b300">Aarambh</h1></span> <hr>-->
+ 
+  <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-               <p style="color:#ff4000;font-size: 15px;" > 'Aarambh' is initiated by <span style="color:#00b300;font-size: 20px;">'Mrs. Sharda Ram' </span> , a mother of a girl child with autism in year 2010 after pursuing her Diploma in Autism Spectrum Disorders and working in the same place to gain experience. <br><br>
-			   'Aarambh' is a registered not for profit organization that strives for the development and care of individuals with autism.<br> <br>'Autism' is a neurological disorder that primarily affects socialization and communication skills of person.                
-            
-            'Autism' appears to have its roots in very early brain development. However, the most obvious signs of autism and symptoms of autism tend to emerge between 2 and 3 years of age. Autism Speaks continues to fund research on effective methods for earlier diagnosis, as early intervention with proven behavioral therapies can improve outcomes. Increasing autism awareness is a key aspect of this work and one in which our families and volunteers play an invaluable role</p>
-            <!-- <a href="#create" class="btn btn-danger btn-xl page-scroll" data-toggle="modal" data-target="#create">More Info</a>-->
-
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/carousel-slider/1.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2>Aarambh</h2>
+                    <small>To Understand AUTISM In A Better Way</small>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/carousel-slider/2.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2>Aarambh</h2>
+                    <small>To Understand AUTISM In A Better Way</small>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url(img/carousel-slider/3.jpg);"></div>
+                <div class="carousel-caption">
+                    <h2>Aarambh</h2><small>To Understand AUTISM In A Better Way</small>
+                </div>
+            </div>
         </div>
-    </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
 </header>
+                       
+       
+
 
 <section class="bg-primary" id="aboutUs">
     <div class="container">
@@ -204,9 +240,25 @@
     <section class="no-padding" id="Gallery">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
-                <h2 class="section-heading text-center">Gallery</h2>
+                <h2 class="section-heading text-center">Gallery - News</h2>
                 <hr class="light">
                 <div class="col-lg-4 col-sm-6">
+                    <a href="img/News/News0.jpg" class="portfolio-box">
+                        <img src="img/News/News0.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    News Paper - Telugu
+                                </div>
+                                <div class="project-name">
+                                    Andhra Jyothi
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				 
+				<div class="col-lg-4 col-sm-6">
                     <a href="img/News/News1.jpg" class="portfolio-box">
                         <img src="img/News/News1.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -237,96 +289,196 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                   <a href="img/News/News3.jpg" class="portfolio-box">
+                    <a href="img/News/News3.jpg" class="portfolio-box">
                         <img src="img/News/News3.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                      News Paper - Telugu
+                                    News Paper - Telugu
                                 </div>
                                 <div class="project-name">
-                                   Eenadu
+                                    Andhra Jyothi
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                     <a href="img/News/News4.jpg" class="portfolio-box">
+				 
+				<div class="col-lg-4 col-sm-6">
+                    <a href="img/News/News4.jpg" class="portfolio-box">
                         <img src="img/News/News4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                 <div class="project-category text-faded">
-                                    News Paper - English
+                                <div class="project-category text-faded">
+                                    News Paper - Telugu
                                 </div>
                                 <div class="project-name">
-                                    The New Indian Express
+                                    Andhra Jyothi
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                     <a href="img/News/News5.jpg" class="portfolio-box">
+                    <a href="img/News/News5.jpg" class="portfolio-box">
                         <img src="img/News/News5.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    News Paper - Hindi
-                                </div>
-                                <div class="project-name">
-                                    Milap
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                     <a href="img/News/News6.jpg" class="portfolio-box">
-                        <img src="img/News/News6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
                                  <div class="project-category text-faded">
                                     News Paper - Telugu
                                 </div>
                                 <div class="project-name">
-                                    Sakshi									
+                                    Andhra Prabha
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                     <a href="img/News/News7.jpg" class="portfolio-box">
-                        <img src="img/News/News7.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                 <div class="project-category text-faded">
-                                    News Paper - Telugu
-                                </div>
-                                <div class="project-name">
-                                    Surya
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/News/News8.jpg" class="portfolio-box">
-                        <img src="img/News/News8.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                 <div class="project-category text-faded">
-                                    News Paper - Telugu
-                                </div>
-                                <div class="project-name">
-                                    Vaartha
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+               
                 
+            </div>
+			</br><br>
+			<div class="row no-gutter popup-gallery">
+                <h2 class="section-heading text-center">Gallery - Celebrity</h2>
+                <hr class="light">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb0.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb0.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				 
+				<div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb1.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb2.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb3.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				 
+				<div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb4.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb5.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb6.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb7.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb7.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/celebrity/Celeb8.jpg" class="portfolio-box">
+                        <img src="img/celebrity/Celeb8.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    TBD
+                                </div>
+                                <div class="project-name">
+                                    TBD
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <br><br>
         </div>
@@ -351,83 +503,96 @@
         </div>
         
         <div class="row no-gutter popup-gallery">            
-            <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                    <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+           <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop1.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                    Diyas
+                                </div>
+                                <div class="project-name">
+                                    D001
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                    <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+                    </a>
+                </div>
+              <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop2.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                    Paper Bags
+                                </div>
+                                <div class="project-name">
+                                    PPB001
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                    <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Category
-                            </div>
-                            <div class="project-name">
-                                Project Name
+                    </a>
+                </div>
+				 <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop3.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                   Photo Frames
+                                </div>
+                                <div class="project-name">
+                                    PF001
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-            </div>
+                    </a>
+                </div>
+              <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop4.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                    Key Chains
+                                </div>
+                                <div class="project-name">
+                                    KC001
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+              <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop5.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                    Pani Poori Plates
+                                </div>
+                                <div class="project-name">
+                                    PPP001
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				 <div class="col-lg-4 col-sm-6">
+                    <a href="img/shop/Shop6.jpg" class="portfolio-box">
+                        <img src="img/shop/Shop6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                 <div class="project-category text-faded">
+                                    Cloath Bags
+                                </div>
+                                <div class="project-name">
+                                    CB001
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
         </div>
     </div>
 </section>
@@ -538,14 +703,16 @@
                 <div class="service-box">
                   <a>  <h3>Video</h3></a>
                   <video width="320" height="240" controls>
-                      <source src="media/video1.3gp" type="video/mp4">
+                      <source src="media/video1.mp4" type="video/mp4">
+					  <source src="movie.ogg" type="video/ogg">
                           Your browser does not support the video tag.
                       </video>					  
                   </div>
 				   
                   
                   <video width="320" height="240" controls>
-                      <source src="media/video2.3gp" type="video/mp4">
+                       <source src="media/video2.mp4" type="video/mp4">
+					  <source src="movie.ogg" type="video/ogg">
                           Your browser does not support the video tag.
                       </video>					  
                   
@@ -796,7 +963,11 @@ Email:aarambhhyd@gmail.com, aarambforautism@gmail.com
 
 <!-- Theme JavaScript -->
 <script src="js/creative.min.js"></script>
-
+<script>
+    $('.carousel').carousel({
+        interval: 3000 //changes the speed
+    })
+    </script>
 </body>
 
 </html>
